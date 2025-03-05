@@ -23,12 +23,21 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure--xmzq0+-4w2##gv6pdh$x58g9nr44ld8h17d2-2nu$b$t2!cw8"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['sherifapi.onrender.com', '127.0.0.1', 'localhost']
+
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",  # Allow frontend to access API
-    # "https://carparkingsystem.vercel.app",  
+   'http://localhost:5173',
+   'https://pawcare-two.vercel.app',
+   'https://sherifapi.onrender.com',
+]
+
+CORS_ALLOW_HEADERS = [
+    'content-type',
+    'authorization',
+    'x-csrftoken',
+    'accept',
 ]
 
 
