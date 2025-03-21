@@ -18,7 +18,7 @@ const LandingPage = () => {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
               <Heart className="h-8 w-8 text-blue-600 mr-2" />
-              <span className="text-2xl font-bold text-blue-800">Harar Hospital</span>
+              <span className="text-2xl font-bold text-blue-800">Medinik Hospital</span>
             </div>
 
             {/* Desktop Navigation */}
