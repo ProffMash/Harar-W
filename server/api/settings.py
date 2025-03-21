@@ -30,7 +30,6 @@ ALLOWED_HOSTS = ['harars.onrender.com', '127.0.0.1', 'localhost']
 CORS_ALLOWED_ORIGINS = [
    'http://localhost:5173',
    'https://hararhospital.vercel.app',
-   'https://medinik-tau.vercel.app',
    'https://harars.onrender.com',
 ]
 
